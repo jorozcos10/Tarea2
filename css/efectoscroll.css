@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #737373;
+}
+
+header{
+    height: 100px;
+    background-color: #c10bee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    color:white;
+}
+
+.centrar{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contenidos{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.contenido{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+}
